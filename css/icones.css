@@ -1,0 +1,56 @@
+.icone{
+	width:230px;
+	padding:150px 50px 50px 50px;
+	
+}
+.livro{
+	animation-duration: 10s;
+	animation-name: livro;
+}
+
+@keyframes livro
+{
+0% {
+	opacity : 0.0;
+}
+100% {
+	opacity : 1;
+}
+}
+.usern{
+	animation-duration: 15s;
+	animation-name: usern;
+}
+@keyframes usern
+{
+0% {
+	opacity : 0.0;
+}
+100% {
+	opacity : 1;
+}
+}
+.buscarl{
+	animation:buscarl 20s;
+}
+@keyframes buscarl
+{
+from {
+	opacity : 0.0;
+}
+to {
+	opacity : 1;
+}
+}
+.buscaru{
+	animation:buscaru 25s;
+}
+@keyframes buscaru
+{
+from {
+	opacity : 0.0;
+}
+to {
+	opacity : 1;
+}
+}

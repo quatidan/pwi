@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="../img/icones/ico.png">
+		<title>Home</title>
+		<link href="../css/icones.css" rel="stylesheet">
+		<link href="../css/form.css" rel="stylesheet">
+		<link href="../css/forml.css" rel="stylesheet">
+		
+	</head>
+
+<body>
+
+		<a href="../index.html"><img src="../img/icones/home.png" title="HOME" class="icone home"></a>
+	
+	<fieldset class="formulario">
+	<legend><h1>Cadastrar Livro</h1></legend>
+	<form enctype="multipart/form-data" action="../php/salvarl.php" method="post">
+	<label for="cod">Código</label><input name="cod" type="text"/><br><br>
+	<label for="titulo">Titulo</label><input name="titulo" type="text"/><br><br>
+	<label for="genero">Genero</label><input name="genero" type="text" required/><br><br>
+	<label for="autor">Autor</label><input name="autor" type="text"/><br><br>
+	<label for="editora">Editora</label><input name="editora" type="text"/><br><br>
+	<label for="isbn">ISBN</label><input name="isbn" type="text"/><br><br>
+	<label for="edição">Edição</label><input name="edicao" type="text"/><br><br>
+	<label for="etaria">Classificação Etária</label><input name="etaria" type="text"/><br><br>
+	<label for="resumo">Resumo</label>
+	<textarea cols="80" rows="5" id="resumo" name="resumo" ></textarea><br><br>
+	
+	<label for="capa">Capa</label><input name="capa" type="file"/><br><br>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<input type=image src="../img/icones/ok.png" title="Salvar" class="botao">
+	<img src="../img/icones/exc.png" title="Limpar" class="botao" onClick="document.forms[0].reset()" >	
+    
+</form>
+	</fieldset>
+
+</script> 
+</body>
+</html>

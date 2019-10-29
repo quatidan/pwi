@@ -1,0 +1,26 @@
+﻿*{
+	padding:0;
+	margin:0;
+}
+.transp{
+	width:100%;
+	height:100vh;
+	background-color:rgba(0,0,0,0.5);
+	z-index:10;
+	position:absolute;
+}
+
+form{
+	width:20vw;
+	height:20wh;
+	/* vw largura vh altura*/
+	margin-left:40vw;
+	margin-top:40vh;
+}
+
+label{
+	float:left;
+	display:block;
+	width:130px;
+	font-size:30px;
+}
